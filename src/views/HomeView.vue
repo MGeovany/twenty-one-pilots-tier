@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useDragAndDrop } from '@formkit/drag-and-drop/vue'
+
 const [parent, tapes] = useDragAndDrop([
   'Depeche Mode',
   'Duran Duran',
